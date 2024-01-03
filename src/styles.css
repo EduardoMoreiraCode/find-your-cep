@@ -89,7 +89,7 @@
     font-weight: bold;
 }
 
-@media (max-width:620px)
+@media (max-width:750px)
 {
     .title
     {
@@ -108,15 +108,29 @@
     }
 }
 
-@media (max-width:435px)
+@media (max-width:532px)
 {
     .title
     {
         font-size: 45px;
     }
 
+    .main
+    {
+        min-height: 200px;
+    }
+    
     .main h2
     {
         font-size: 18px;
     }
+}
+
+@media (max-width:390px)
+{
+    .title
+    {
+        font-size: 30px;
+    }
+
 }
