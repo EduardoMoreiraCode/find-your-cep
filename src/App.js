@@ -39,7 +39,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1 className="title">Buscador CEP</h1>
+      <h1 className="title">Encontre seu CEP</h1>
 
       <div className="containerInput">
         <input 
