@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Find Your Cep",
+  "name": "Find Your Cep - Buscador de Endereços",
   "icons": [
     {
       "src": "favicon.ico",
