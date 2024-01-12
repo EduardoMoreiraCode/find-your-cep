@@ -69,7 +69,10 @@ function App() {
             //so mostra o complemento se tiver complemento
             <span>Complemento: {cep.complemento}</span>
           )}
-          <span>Bairro: {cep.bairro}</span>
+          {Object.keys(cep.bairro).length > 0 && (
+            // so mostra o bairro se tiver bairro
+            <span>Bairro: {cep.bairro}</span>
+          )}
           <span>{cep.localidade} - {cep.uf}</span>
         </main>
       )}
